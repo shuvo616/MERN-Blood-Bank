@@ -10,7 +10,7 @@
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
-  "author": "",
+  "author": "Shuvo",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
