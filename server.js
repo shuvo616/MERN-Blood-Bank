@@ -17,9 +17,7 @@ const app = express()
 
 //middleware
 app.use(express.json())
-app.use(cors({
-    origin: process.env.REACT_APP_BASEURL
-}))
+app.use(cors())
 app.use(morgan('dev'))
 
 //Routs
